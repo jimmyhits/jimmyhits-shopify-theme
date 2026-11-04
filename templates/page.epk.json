@@ -103,34 +103,20 @@
           "settings": {
             "asset_file": "jimmy-hits-dj-producer-royal-palace-madrid.jpg",
             "alt": "Jimmy Hits, DJ and producer, at the Royal Palace in Madrid",
-            "focus": "center 30%"
+            "focus": "center 30%",
+            "wide": false
           }
         },
         "photo-2": {
           "type": "photo",
           "settings": {
-            "asset_file": "jimmy-hits-dj-live-festival-stage.jpg",
-            "alt": "Jimmy Hits DJing live to a festival crowd",
-            "focus": "center center"
+            "asset_file": "jimmy-hits-dj-producer-blue-portrait.jpg",
+            "alt": "Jimmy Hits, DJ and producer, portrait on a blue backdrop",
+            "focus": "center top",
+            "wide": false
           }
         },
         "photo-3": {
-          "type": "photo",
-          "settings": {
-            "asset_file": "jimmy-hits-dj-producer-blue-portrait.jpg",
-            "alt": "Jimmy Hits, DJ and producer, portrait on a blue backdrop",
-            "focus": "center top"
-          }
-        },
-        "photo-4": {
-          "type": "photo",
-          "settings": {
-            "asset_file": "jimmy-hits-doll-era-doll-jacket.jpg",
-            "alt": "Jimmy Hits wearing a jacket covered in fashion dolls",
-            "focus": "center top"
-          }
-        },
-        "photo-5": {
           "type": "photo",
           "settings": {
             "asset_file": "jimmy-hits-dj-producer-church-steps.jpg",
@@ -139,7 +125,16 @@
             "wide": false
           }
         },
-        "photo-6": {
+        "photo-4": {
+          "type": "photo",
+          "settings": {
+            "asset_file": "jimmy-hits-dj-producer-skull-hand-portrait.jpg",
+            "alt": "Jimmy Hits, DJ and producer, portrait with skull hand tattoo",
+            "focus": "center 30%",
+            "wide": false
+          }
+        },
+        "photo-5": {
           "type": "photo",
           "settings": {
             "asset_file": "jimmy-hits-dj-producer-chess-portrait.jpg",
@@ -148,11 +143,20 @@
             "wide": true
           }
         },
+        "photo-6": {
+          "type": "photo",
+          "settings": {
+            "asset_file": "jimmy-hits-dj-producer-couch-portrait.jpg",
+            "alt": "Jimmy Hits, DJ and producer, seated portrait",
+            "focus": "center center",
+            "wide": false
+          }
+        },
         "photo-7": {
           "type": "photo",
           "settings": {
-            "asset_file": "jimmy-hits-dj-producer-portrait.jpg",
-            "alt": "Jimmy Hits, DJ and producer, press portrait",
+            "asset_file": "jimmy-hits-dj-producer-op-art-portrait.jpg",
+            "alt": "Jimmy Hits, DJ and producer, portrait against a black and white op-art backdrop",
             "focus": "center 30%",
             "wide": false
           }
@@ -178,12 +182,12 @@
       },
       "block_order": [
         "photo-1",
-        "photo-3",
         "photo-2",
+        "photo-3",
+        "photo-4",
         "photo-5",
         "photo-6",
         "photo-7",
-        "photo-4",
         "photo-8",
         "photo-9"
       ],
@@ -198,6 +202,114 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "live_gallery": {
+      "type": "photo-gallery",
+      "blocks": {
+        "photo-1": {
+          "type": "photo",
+          "settings": {
+            "asset_file": "jimmy-hits-dj-live-warehouse-crowd.jpg",
+            "alt": "Jimmy Hits DJing to a packed warehouse crowd, view from the stage",
+            "focus": "center center",
+            "wide": true
+          }
+        },
+        "photo-2": {
+          "type": "photo",
+          "settings": {
+            "asset_file": "jimmy-hits-dj-live-confetti.jpg",
+            "alt": "Jimmy Hits on stage in a confetti drop",
+            "focus": "center 30%",
+            "wide": false
+          }
+        },
+        "photo-3": {
+          "type": "photo",
+          "settings": {
+            "asset_file": "jimmy-hits-dj-live-hands-up.jpg",
+            "alt": "Jimmy Hits with hands up behind the decks",
+            "focus": "center top",
+            "wide": false
+          }
+        },
+        "photo-4": {
+          "type": "photo",
+          "settings": {
+            "asset_file": "jimmy-hits-dj-live-club-led-screen.jpg",
+            "alt": "Jimmy Hits headlining a club with his name on the LED screen",
+            "focus": "center top",
+            "wide": false
+          }
+        },
+        "photo-5": {
+          "type": "photo",
+          "settings": {
+            "asset_file": "jimmy-hits-dj-live-black-and-white-mark-sandstorm.jpg",
+            "alt": "Jimmy Hits performing live. Photo by Mark Sandstorm",
+            "focus": "center 30%",
+            "wide": false
+          }
+        },
+        "photo-6": {
+          "type": "photo",
+          "settings": {
+            "asset_file": "jimmy-hits-dj-live-crowd-mascot-view.jpg",
+            "alt": "View over the decks to a huge crowd at a Jimmy Hits set",
+            "focus": "center center",
+            "wide": true
+          }
+        },
+        "photo-7": {
+          "type": "photo",
+          "settings": {
+            "asset_file": "jimmy-hits-dj-live-stage-mascot.jpg",
+            "alt": "Jimmy Hits on stage with a giant mascot head and crew",
+            "focus": "center center",
+            "wide": true
+          }
+        },
+        "photo-8": {
+          "type": "photo",
+          "settings": {
+            "asset_file": "jimmy-hits-dj-live-festival-stage.jpg",
+            "alt": "Jimmy Hits DJing live to a festival crowd",
+            "focus": "center center",
+            "wide": false
+          }
+        },
+        "photo-9": {
+          "type": "photo",
+          "settings": {
+            "asset_file": "jimmy-hits-dj-live-booth-purple.jpg",
+            "alt": "Jimmy Hits celebrating in the DJ booth",
+            "focus": "center center",
+            "wide": false
+          }
+        }
+      },
+      "block_order": [
+        "photo-1",
+        "photo-2",
+        "photo-3",
+        "photo-4",
+        "photo-5",
+        "photo-6",
+        "photo-7",
+        "photo-8",
+        "photo-9"
+      ],
+      "settings": {
+        "heading": "Live",
+        "heading_size": "h2",
+        "columns_desktop": 4,
+        "aspect_ratio": "4 / 5",
+        "gap": 4,
+        "full_width": true,
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -206,6 +318,7 @@
     "a64f05c8-da39-488f-a060-9beed643f8e8",
     "782021ea-e62c-4aa8-a9a4-e5ef24b11090",
     "4d7608d9_gallery",
+    "live_gallery",
     "61366499-5ba0-4ef4-8ea0-8fbdf5a018e4"
   ]
 }
