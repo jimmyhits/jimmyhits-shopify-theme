@@ -59,7 +59,8 @@
       ],
       "settings": {
         "include_margins": true
-      }
+      },
+      "disabled": true
     },
     "hero_triptych": {
       "type": "hero-triptych",
