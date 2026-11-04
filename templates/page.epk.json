@@ -117,9 +117,9 @@
         "photo-3": {
           "type": "photo",
           "settings": {
-            "asset_file": "jimmy-hits-dj-producer-portrait.jpg",
-            "alt": "Jimmy Hits, DJ and producer, press portrait",
-            "focus": "center 30%"
+            "asset_file": "jimmy-hits-dj-producer-blue-portrait.jpg",
+            "alt": "Jimmy Hits, DJ and producer, portrait on a blue backdrop",
+            "focus": "center top"
           }
         },
         "photo-4": {
@@ -133,8 +133,8 @@
       },
       "block_order": [
         "photo-1",
-        "photo-2",
         "photo-3",
+        "photo-2",
         "photo-4"
       ],
       "settings": {
