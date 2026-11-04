@@ -67,117 +67,6 @@
         "padding_bottom": 52
       }
     },
-    "4d7608d9-c201-4e05-b0ea-6188a7d1ec97": {
-      "type": "slideshow",
-      "blocks": {
-        "template--15556071293114__4d7608d9-c201-4e05-b0ea-6188a7d1ec97-16776077035fd25553-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/NEW_YEARS_2022.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--15556071293114__4d7608d9-c201-4e05-b0ea-6188a7d1ec97-16776077035fd25553-0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/MarkSandstorm_135NYE_resize.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "f0844c64-7628-43c7-9d3d-26043ee90065": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Crispy.Raw-1017.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "0c2f242e-a939-495d-8083-c8c00b5fcde9": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/CB5A4681.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "54e48371-745c-4744-ba77-d8b33b11f8ad": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/DMX_0149_web.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--15556071293114__4d7608d9-c201-4e05-b0ea-6188a7d1ec97-16776077035fd25553-1",
-        "template--15556071293114__4d7608d9-c201-4e05-b0ea-6188a7d1ec97-16776077035fd25553-0",
-        "f0844c64-7628-43c7-9d3d-26043ee90065",
-        "0c2f242e-a939-495d-8083-c8c00b5fcde9",
-        "54e48371-745c-4744-ba77-d8b33b11f8ad"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
     "61366499-5ba0-4ef4-8ea0-8fbdf5a018e4": {
       "type": "rich-text",
       "blocks": {
@@ -205,6 +94,60 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "4d7608d9_gallery": {
+      "type": "photo-gallery",
+      "blocks": {
+        "photo-1": {
+          "type": "photo",
+          "settings": {
+            "asset_file": "jh-palace.jpg",
+            "alt": "Jimmy Hits at the Royal Palace, Madrid",
+            "focus": "center 30%"
+          }
+        },
+        "photo-2": {
+          "type": "photo",
+          "settings": {
+            "asset_file": "jh-festival-booth.jpg",
+            "alt": "Jimmy Hits DJing a festival stage",
+            "focus": "center center"
+          }
+        },
+        "photo-3": {
+          "type": "photo",
+          "settings": {
+            "asset_file": "jh-shush.jpg",
+            "alt": "Jimmy Hits portrait",
+            "focus": "center 30%"
+          }
+        },
+        "photo-4": {
+          "type": "photo",
+          "settings": {
+            "asset_file": "jh-doll-jacket.jpg",
+            "alt": "Jimmy Hits in doll jacket",
+            "focus": "center top"
+          }
+        }
+      },
+      "block_order": [
+        "photo-1",
+        "photo-2",
+        "photo-3",
+        "photo-4"
+      ],
+      "settings": {
+        "heading": "Press Photos",
+        "heading_size": "h2",
+        "columns_desktop": 4,
+        "aspect_ratio": "4 / 5",
+        "gap": 4,
+        "full_width": true,
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -212,7 +155,7 @@
     "8aa38972-a119-4055-946c-c7528ce09f3c",
     "a64f05c8-da39-488f-a060-9beed643f8e8",
     "782021ea-e62c-4aa8-a9a4-e5ef24b11090",
-    "4d7608d9-c201-4e05-b0ea-6188a7d1ec97",
+    "4d7608d9_gallery",
     "61366499-5ba0-4ef4-8ea0-8fbdf5a018e4"
   ]
 }
