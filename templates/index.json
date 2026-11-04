@@ -1,36 +1,5 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Listen Now",
-            "button_link_1": "https://open.spotify.com/artist/5n5bSRrCXozMEFkGMkDP4O",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "button"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/jimmy_hits_website_edm_house_dj.png",
-        "image_overlay_opacity": 10,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -146,10 +115,23 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "hero_triptych": {
+      "type": "hero-triptych",
+      "settings": {
+        "button_label": "Listen Now",
+        "button_link": "https://open.spotify.com/artist/5n5bSRrCXozMEFkGMkDP4O",
+        "button_style_secondary": true,
+        "overlay_opacity": 45,
+        "gap": 0,
+        "max_height": 90,
+        "color_scheme": "scheme-1",
+        "accessibility_label": "Photos of Jimmy Hits"
+      }
     }
   },
   "order": [
-    "image_banner",
+    "hero_triptych",
     "featured_collection",
     "video",
     "1672471210a53bbbd4",
