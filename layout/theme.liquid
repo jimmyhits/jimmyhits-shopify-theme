@@ -9,7 +9,11 @@
 
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
+    {%- else -%}
+      <link rel="icon" type="image/png" sizes="32x32" href="{{ 'favicon-jimmy-hits-32.png' | asset_url }}">
+      <link rel="icon" type="image/png" sizes="512x512" href="{{ 'favicon-jimmy-hits-512.png' | asset_url }}">
     {%- endif -%}
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ 'apple-touch-icon-jimmy-hits.png' | asset_url }}">
 
     {%- unless settings.type_header_font.system? and settings.type_body_font.system? -%}
       <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
