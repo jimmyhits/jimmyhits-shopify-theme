@@ -16,7 +16,7 @@
         "video_url": "https://www.youtube.com/watch?v=lYNVX8gKcnY",
         "description": "I Don't Care / Je M'en Fous – Jimmy Hits",
         "full_width": false,
-        "color_scheme": "background-1",
+        "color_scheme": "scheme-1",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -52,7 +52,7 @@
         "template--15556071293114__a64f05c8-da39-488f-a060-9beed643f8e8-16776065437c388d68-2"
       ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "scheme-1",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -62,7 +62,7 @@
       "type": "custom-liquid",
       "settings": {
         "custom_liquid": "<iframe width=\"100%\" height=\"300\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2233007849&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true\"></iframe><div style=\"font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;\"><a href=\"https://soundcloud.com/jimmyhitsmusic\" title=\"Jimmy Hits\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">Jimmy Hits</a> · <a href=\"https://soundcloud.com/jimmyhitsmusic/you-make-me-crazy-1\" title=\"You Make Me Crazy\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">You Make Me Crazy</a></div>\n<iframe width=\"100%\" height=\"300\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2039717372&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true\"></iframe><div style=\"font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;\"><a href=\"https://soundcloud.com/jimmyhitsmusic\" title=\"Jimmy Hits\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">Jimmy Hits</a> · <a href=\"https://soundcloud.com/jimmyhitsmusic/he-dont-miss-radio\" title=\"HE DON&#x27;T MISS RADIO - EPISODE 1\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">HE DON&#x27;T MISS RADIO - EPISODE 1</a></div>",
-        "color_scheme": "background-1",
+        "color_scheme": "scheme-1",
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -84,7 +84,7 @@
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
+            "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
         },
@@ -102,7 +102,7 @@
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
+            "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
         },
@@ -120,7 +120,7 @@
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
+            "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
         },
@@ -138,7 +138,7 @@
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
+            "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
         },
@@ -156,7 +156,7 @@
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
+            "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
         }
@@ -200,7 +200,7 @@
         "template--15556071293114__61366499-5ba0-4ef4-8ea0-8fbdf5a018e4-16776105467fe971ec-1"
       ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "scheme-1",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
