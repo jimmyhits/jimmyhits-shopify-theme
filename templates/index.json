@@ -80,32 +80,32 @@
         "photo-1": {
           "type": "photo",
           "settings": {
-            "asset_file": "jh-shush.jpg",
-            "alt": "Jimmy Hits portrait",
+            "asset_file": "jimmy-hits-dj-producer-portrait.jpg",
+            "alt": "Jimmy Hits, DJ and producer, press portrait",
             "focus": "center 30%"
           }
         },
         "photo-2": {
           "type": "photo",
           "settings": {
-            "asset_file": "jh-doll-head.jpg",
-            "alt": "Jimmy Hits doll head art",
+            "asset_file": "jimmy-hits-doll-era-doll-head-art.jpg",
+            "alt": "Jimmy Hits doll head artwork from the Doll Era series",
             "focus": "center center"
           }
         },
         "photo-3": {
           "type": "photo",
           "settings": {
-            "asset_file": "jh-meat-tray.jpg",
-            "alt": "Jimmy Hits packaged art piece",
+            "asset_file": "jimmy-hits-doll-era-packaged-art.jpg",
+            "alt": "Jimmy Hits packaged head artwork from the Doll Era series",
             "focus": "center center"
           }
         },
         "photo-4": {
           "type": "photo",
           "settings": {
-            "asset_file": "jh-doll-jacket.jpg",
-            "alt": "Jimmy Hits in doll jacket",
+            "asset_file": "jimmy-hits-doll-era-doll-jacket.jpg",
+            "alt": "Jimmy Hits wearing a jacket covered in fashion dolls",
             "focus": "center top"
           }
         }

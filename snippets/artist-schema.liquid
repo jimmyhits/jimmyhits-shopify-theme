@@ -30,7 +30,13 @@
     "url": {{ request.origin | append: '/' | json }},
     "genre": ["Tech House", "Minimal House"],
     "description": "Jimmy Hits is a DJ, producer and creative director based in San Francisco and Seattle.",
-    "image": "https://jimmyhits.com/cdn/shop/files/jimmy_hits_website_edm_house_dj.png",
+    "image": [
+      {{ 'jimmy-hits-dj-producer-portrait.jpg' | asset_url | prepend: 'https:' | json }},
+      {{ 'jimmy-hits-dj-producer-madrid-almudena-cathedral.jpg' | asset_url | prepend: 'https:' | json }},
+      {{ 'jimmy-hits-dj-producer-royal-palace-madrid.jpg' | asset_url | prepend: 'https:' | json }},
+      {{ 'jimmy-hits-dj-live-festival-stage.jpg' | asset_url | prepend: 'https:' | json }},
+      {{ 'jimmy-hits-doll-era-doll-jacket.jpg' | asset_url | prepend: 'https:' | json }}
+    ],
     "email": "bookings@jimmyhits.com",
     "sameAs": {{ same_as | json }}
   }

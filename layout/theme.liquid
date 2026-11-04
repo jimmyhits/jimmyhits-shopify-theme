@@ -27,7 +27,7 @@
     {% endif %}
 
     {% render 'meta-tags' %}
-    {%- if request.page_type == 'index' -%}
+    {%- if request.page_type == 'index' or page.handle == 'epk' -%}
       {% render 'artist-schema' %}
     {%- endif -%}
 

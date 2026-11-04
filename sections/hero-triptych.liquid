@@ -2,10 +2,11 @@
   Jimmy Hits homepage hero: three portrait photos side by side with a button on top.
   Desktop: three equal columns. Mobile: swipeable row.
   Each photo can be swapped in the theme editor; if left empty it falls back to the
-  photo bundled with the theme (assets/jh-hero-*.jpg).
+  photo bundled with the theme (assets/jimmy-hits-dj-producer-madrid-*.jpg).
 {%- endcomment -%}
 {%- liquid
-  assign fallbacks = 'jh-hero-wall.jpg,jh-hero-cathedral.jpg,jh-hero-plaza.jpg' | split: ','
+  assign fallbacks = 'jimmy-hits-dj-producer-madrid-street.jpg,jimmy-hits-dj-producer-madrid-almudena-cathedral.jpg,jimmy-hits-dj-producer-madrid-plaza-mayor.jpg' | split: ','
+  assign fallback_alts = 'Jimmy Hits, DJ and producer, on a street in Madrid|Jimmy Hits, DJ and producer, at Almudena Cathedral in Madrid|Jimmy Hits, DJ and producer, in Plaza Mayor, Madrid' | split: '|'
 -%}
 
 {%- style -%}
@@ -93,7 +94,7 @@
         {%- else -%}
           <img
             src="{{ fallbacks[idx] | asset_url }}"
-            alt="Jimmy Hits"
+            alt="{{ fallback_alts[idx] | escape }}"
             width="1000"
             height="1500"
             loading="{{ loading }}"

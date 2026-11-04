@@ -101,32 +101,32 @@
         "photo-1": {
           "type": "photo",
           "settings": {
-            "asset_file": "jh-palace.jpg",
-            "alt": "Jimmy Hits at the Royal Palace, Madrid",
+            "asset_file": "jimmy-hits-dj-producer-royal-palace-madrid.jpg",
+            "alt": "Jimmy Hits, DJ and producer, at the Royal Palace in Madrid",
             "focus": "center 30%"
           }
         },
         "photo-2": {
           "type": "photo",
           "settings": {
-            "asset_file": "jh-festival-booth.jpg",
-            "alt": "Jimmy Hits DJing a festival stage",
+            "asset_file": "jimmy-hits-dj-live-festival-stage.jpg",
+            "alt": "Jimmy Hits DJing live to a festival crowd",
             "focus": "center center"
           }
         },
         "photo-3": {
           "type": "photo",
           "settings": {
-            "asset_file": "jh-shush.jpg",
-            "alt": "Jimmy Hits portrait",
+            "asset_file": "jimmy-hits-dj-producer-portrait.jpg",
+            "alt": "Jimmy Hits, DJ and producer, press portrait",
             "focus": "center 30%"
           }
         },
         "photo-4": {
           "type": "photo",
           "settings": {
-            "asset_file": "jh-doll-jacket.jpg",
-            "alt": "Jimmy Hits in doll jacket",
+            "asset_file": "jimmy-hits-doll-era-doll-jacket.jpg",
+            "alt": "Jimmy Hits wearing a jacket covered in fashion dolls",
             "focus": "center top"
           }
         }
