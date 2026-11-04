@@ -343,15 +343,130 @@
         "padding_top": 0,
         "padding_bottom": 36
       }
+    },
+    "home_bio": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15556071293114__a64f05c8-da39-488f-a060-9beed643f8e8-16776065437c388d68-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bio",
+            "heading_size": "h1"
+          }
+        },
+        "template--15556071293114__a64f05c8-da39-488f-a060-9beed643f8e8-16776065437c388d68-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Jimmy Hits has been quietly putting in the work since he was a teenager. Growing up surrounded by music, he played in bands from an early age, including Super Square — the group behind music featured in Mortal Kombat 11 and Mortal Kombat 1. That foundation of live performance and serious musicianship shaped everything that came after.</p><p>A self-taught DJ and producer from the Bay Area, he spent years honing his craft across local venues, residencies, and festivals — from Ruby Skye and Temple in San Francisco to Hyde in Las Vegas, Marquee in Sydney, Create in Hollywood, and Bumbershoot in Seattle. In 2023, he landed in Diplo's Revolution Top 20. Not chasing fame. Just loving the music.</p><p>When label submissions for his original music came back with rejections, Jimmy did what any true artist does: he made the song anyway. \"I Don't Care / Je M'en Fous\" was born out of that moment — and it turned out to be the most honest thing he'd ever made. The track went viral on its own, racking up tens of millions of views, charting on iTunes Dance in 23+ countries, and landing a sync placement at Caesars/Vanderpump Hotel. No label. No machine. Just a song that resonated.</p><p>Rooted in Tech House and Minimal House, with deep influences from dance music and Latin culture, Jimmy's sound is warm, hypnotic, and made for the floor. His viral plastic fashion doll video series has built a global fanbase spanning Brazil, Mexico, Spain, France, Australia, and beyond — turning a breakout single into a full cultural moment. He's not trying to be the biggest name in the room. He just wants to make you feel something. Lately, the world has been listening.</p>"
+          }
+        },
+        "template--15556071293114__a64f05c8-da39-488f-a060-9beed643f8e8-16776065437c388d68-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "LISTEN TO CATALOG HERE",
+            "button_link": "https://soundcloud.com/jimmyhitsmusic/",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15556071293114__a64f05c8-da39-488f-a060-9beed643f8e8-16776065437c388d68-0",
+        "template--15556071293114__a64f05c8-da39-488f-a060-9beed643f8e8-16776065437c388d68-1",
+        "template--15556071293114__a64f05c8-da39-488f-a060-9beed643f8e8-16776065437c388d68-2"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "home_music": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<iframe width=\"100%\" height=\"300\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2233007849&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true\"></iframe><div style=\"font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;\"><a href=\"https://soundcloud.com/jimmyhitsmusic\" title=\"Jimmy Hits\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">Jimmy Hits</a> · <a href=\"https://soundcloud.com/jimmyhitsmusic/you-make-me-crazy-1\" title=\"You Make Me Crazy\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">You Make Me Crazy</a></div>\n<iframe width=\"100%\" height=\"300\" scrolling=\"no\" frameborder=\"no\" allow=\"autoplay\" src=\"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2039717372&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true\"></iframe><div style=\"font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;\"><a href=\"https://soundcloud.com/jimmyhitsmusic\" title=\"Jimmy Hits\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">Jimmy Hits</a> · <a href=\"https://soundcloud.com/jimmyhitsmusic/he-dont-miss-radio\" title=\"HE DON&#x27;T MISS RADIO - EPISODE 1\" target=\"_blank\" style=\"color: #cccccc; text-decoration: none;\">HE DON&#x27;T MISS RADIO - EPISODE 1</a></div>",
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "home_residencies": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15556071293114__61366499-5ba0-4ef4-8ea0-8fbdf5a018e4-16776105467fe971ec-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Residencies",
+            "heading_size": "h1"
+          }
+        },
+        "template--15556071293114__61366499-5ba0-4ef4-8ea0-8fbdf5a018e4-16776105467fe971ec-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Jimmy Hits currently holds residencies at <strong>Elia</strong>, <strong>White Rabbit SF</strong> and <strong>Rick &amp; Roxy's SF</strong>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15556071293114__61366499-5ba0-4ef4-8ea0-8fbdf5a018e4-16776105467fe971ec-0",
+        "template--15556071293114__61366499-5ba0-4ef4-8ea0-8fbdf5a018e4-16776105467fe971ec-1"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "home_booking": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Book Jimmy Hits",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Clubs, festivals and private events. Email <a href=\"mailto:bookings@jimmyhits.com\">bookings@jimmyhits.com</a> or request a quote online.</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Request a Quote",
+            "button_link": "shopify://pages/book-me",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 52,
+        "padding_bottom": 64
+      }
     }
   },
   "order": [
     "hero_triptych",
-    "featured_collection",
+    "home_bio",
     "video",
-    "1672471210a53bbbd4",
-    "6ec9a985_gallery",
     "home_live_gallery",
-    "home_press_gallery"
+    "home_music",
+    "home_residencies",
+    "home_press_gallery",
+    "6ec9a985_gallery",
+    "featured_collection",
+    "1672471210a53bbbd4",
+    "home_booking"
   ]
 }
