@@ -19,18 +19,41 @@
       <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
     {%- endunless -%}
 
+    {%- liquid
+      assign site_name = 'Jimmy Hits'
+      assign seo_title = ''
+      assign seo_description = page_description
+      if request.page_type == 'index'
+        assign seo_title = 'Jimmy Hits | DJ & Producer – San Francisco & Seattle'
+        if page_description == blank or page_description == shop.name
+          assign seo_description = 'Official site of DJ and producer Jimmy Hits (San Francisco & Seattle). Book Jimmy for clubs, festivals and events, stream new music and shop merch.'
+        endif
+      elsif request.page_type == 'page' and page.handle == 'epk'
+        assign seo_title = 'EPK – Jimmy Hits | Bio, Press Photos & Booking'
+        assign seo_description = 'Electronic press kit for Jimmy Hits, Tech House and Minimal House DJ and producer: bio, press photos, live photos, music and booking info.'
+      elsif request.page_type == 'page' and page.handle == 'book-me'
+        assign seo_title = 'Book Jimmy Hits – DJ for Clubs, Festivals & Events'
+        assign seo_description = 'Book Jimmy Hits, DJ and producer based in San Francisco and Seattle, for clubs, festivals and private events. Request a quote online.'
+      endif
+      if seo_description == blank
+        assign seo_description = 'Jimmy Hits, DJ and producer based in San Francisco and Seattle.'
+      endif
+    -%}
+
     <title>
-      {{ page_title }}
-      {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
-      {%- if current_page != 1 %} &ndash; Page {{ current_page }}{% endif -%}
-      {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}
+      {%- if seo_title != blank -%}
+        {{ seo_title }}
+      {%- else -%}
+        {{ page_title }}
+        {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
+        {%- if current_page != 1 %} &ndash; Page {{ current_page }}{% endif -%}
+        {%- unless page_title contains site_name %} &ndash; {{ site_name }}{% endunless -%}
+      {%- endif -%}
     </title>
 
-    {% if page_description %}
-      <meta name="description" content="{{ page_description | escape }}">
-    {% endif %}
+    <meta name="description" content="{{ seo_description | strip_html | strip_newlines | truncate: 300 | escape }}">
 
-    {% render 'meta-tags' %}
+    {% render 'meta-tags', seo_title: seo_title, seo_description: seo_description, site_name: site_name %}
     {%- if request.page_type == 'index' or page.handle == 'epk' -%}
       {% render 'artist-schema' %}
     {%- endif -%}
