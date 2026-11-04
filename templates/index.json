@@ -7,7 +7,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Listen Now",
-            "button_link_1": "shopify://pages/epk",
+            "button_link_1": "https://open.spotify.com/artist/5n5bSRrCXozMEFkGMkDP4O",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
