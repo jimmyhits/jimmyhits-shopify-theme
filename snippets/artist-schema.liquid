@@ -1,0 +1,37 @@
+{%- comment -%}
+  Structured data so Google understands jimmyhits.com is the official site of the artist Jimmy Hits.
+  Social profiles are pulled from Theme settings > Social media (add them there) plus SoundCloud.
+{%- endcomment -%}
+{%- liquid
+  assign same_as = 'https://soundcloud.com/jimmyhitsmusic'
+  if settings.social_instagram_link != blank
+    assign same_as = same_as | append: '|' | append: settings.social_instagram_link
+  endif
+  if settings.social_tiktok_link != blank
+    assign same_as = same_as | append: '|' | append: settings.social_tiktok_link
+  endif
+  if settings.social_youtube_link != blank
+    assign same_as = same_as | append: '|' | append: settings.social_youtube_link
+  endif
+  if settings.social_facebook_link != blank
+    assign same_as = same_as | append: '|' | append: settings.social_facebook_link
+  endif
+  if settings.social_twitter_link != blank
+    assign same_as = same_as | append: '|' | append: settings.social_twitter_link
+  endif
+  assign same_as = same_as | split: '|'
+-%}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MusicGroup",
+    "@id": {{ request.origin | append: '/#artist' | json }},
+    "name": "Jimmy Hits",
+    "url": {{ request.origin | append: '/' | json }},
+    "genre": ["House", "EDM"],
+    "description": "Jimmy Hits is a DJ, producer and creative director based in San Francisco and Seattle.",
+    "image": "https://jimmyhits.com/cdn/shop/files/jimmy_hits_website_edm_house_dj.png",
+    "email": "bookings@jimmyhits.com",
+    "sameAs": {{ same_as | json }}
+  }
+</script>

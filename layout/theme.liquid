@@ -28,6 +28,9 @@
     {% endif %}
 
     {% render 'meta-tags' %}
+    {%- if request.page_type == 'index' -%}
+      {% render 'artist-schema' %}
+    {%- endif -%}
 
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
     {{ content_for_header }}
@@ -218,6 +221,9 @@
     {% section 'announcement-bar' %}
     {% section 'header' %}
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+      {%- if request.page_type == 'index' -%}
+        <h1 class="visually-hidden">Jimmy Hits &ndash; DJ &amp; Producer</h1>
+      {%- endif -%}
       {{ content_for_layout }}
     </main>
 

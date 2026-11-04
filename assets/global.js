@@ -544,9 +544,12 @@ class SliderComponent extends HTMLElement {
   initPages() {
     this.sliderItemsToShow = Array.from(this.sliderItems).filter(element => element.clientWidth > 0);
     if (this.sliderItemsToShow.length < 2) return;
-    this.sliderItemOffset = this.sliderItemsToShow[1].offsetLeft - this.sliderItemsToShow[0].offsetLeft;
-    this.slidesPerPage = Math.floor((this.slider.clientWidth - this.sliderItemsToShow[0].offsetLeft) / this.sliderItemOffset);
-    this.totalPages = this.sliderItemsToShow.length - this.slidesPerPage + 1;
+    const offset = this.sliderItemsToShow[1].offsetLeft - this.sliderItemsToShow[0].offsetLeft;
+    // Slides can briefly share the same position before images load; avoid dividing by zero (shows "NaN / of-Infinity").
+    if (!offset || offset <= 0) return;
+    this.sliderItemOffset = offset;
+    this.slidesPerPage = Math.max(1, Math.floor((this.slider.clientWidth - this.sliderItemsToShow[0].offsetLeft) / this.sliderItemOffset));
+    this.totalPages = Math.max(1, this.sliderItemsToShow.length - this.slidesPerPage + 1);
     this.update();
   }
 
@@ -556,8 +559,9 @@ class SliderComponent extends HTMLElement {
   }
 
   update() {
+    if (!this.sliderItemOffset || !this.sliderItemsToShow) return;
     const previousPage = this.currentPage;
-    this.currentPage = Math.round(this.slider.scrollLeft / this.sliderItemOffset) + 1;
+    this.currentPage = Math.min(this.totalPages, Math.round(this.slider.scrollLeft / this.sliderItemOffset) + 1);
 
     if (this.currentPageElement && this.pageTotalElement) {
       this.currentPageElement.textContent = this.currentPage;
