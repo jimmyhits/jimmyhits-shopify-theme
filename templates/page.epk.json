@@ -129,13 +129,63 @@
             "alt": "Jimmy Hits wearing a jacket covered in fashion dolls",
             "focus": "center top"
           }
+        },
+        "photo-5": {
+          "type": "photo",
+          "settings": {
+            "asset_file": "jimmy-hits-dj-producer-church-steps.jpg",
+            "alt": "Jimmy Hits, DJ and producer, seated on church steps",
+            "focus": "center 30%",
+            "wide": false
+          }
+        },
+        "photo-6": {
+          "type": "photo",
+          "settings": {
+            "asset_file": "jimmy-hits-dj-producer-chess-portrait.jpg",
+            "alt": "Jimmy Hits, DJ and producer, playing chess",
+            "focus": "center center",
+            "wide": true
+          }
+        },
+        "photo-7": {
+          "type": "photo",
+          "settings": {
+            "asset_file": "jimmy-hits-dj-producer-portrait.jpg",
+            "alt": "Jimmy Hits, DJ and producer, press portrait",
+            "focus": "center 30%",
+            "wide": false
+          }
+        },
+        "photo-8": {
+          "type": "photo",
+          "settings": {
+            "asset_file": "jimmy-hits-dj-producer-beach.jpg",
+            "alt": "Jimmy Hits, DJ and producer, on the beach",
+            "focus": "center center",
+            "wide": true
+          }
+        },
+        "photo-9": {
+          "type": "photo",
+          "settings": {
+            "asset_file": "jimmy-hits-dj-producer-yellow-chair.jpg",
+            "alt": "Jimmy Hits, DJ and producer, in a yellow armchair",
+            "focus": "center center",
+            "wide": true
+          }
         }
       },
       "block_order": [
         "photo-1",
         "photo-3",
         "photo-2",
-        "photo-4"
+        "photo-5",
+        "photo-6",
+        "photo-7",
+        "photo-4",
+        "photo-8",
+        "photo-9"
       ],
       "settings": {
         "heading": "Press Photos",

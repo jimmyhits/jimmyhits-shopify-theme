@@ -12,9 +12,14 @@
     display: grid;
     grid-template-columns: repeat({{ section.settings.columns_desktop }}, 1fr);
     gap: {{ section.settings.gap }}px;
+    grid-auto-flow: row dense;
     list-style: none;
     margin: 0;
     padding: 0;
+  }
+  #PhotoGallery-{{ section.id }} .photo-gallery__item--wide {
+    grid-column: span 2;
+    aspect-ratio: 8 / 5;
   }
   #PhotoGallery-{{ section.id }} .photo-gallery__item {
     position: relative;
@@ -44,6 +49,9 @@
     #PhotoGallery-{{ section.id }} .photo-gallery__grid {
       grid-template-columns: repeat(2, 1fr);
     }
+    #PhotoGallery-{{ section.id }} .photo-gallery__item--wide {
+      aspect-ratio: 3 / 2;
+    }
   }
 {%- endstyle -%}
 
@@ -54,7 +62,7 @@
     {%- endif -%}
     <ul class="photo-gallery__grid" role="list">
       {%- for block in section.blocks -%}
-        <li class="photo-gallery__item" {{ block.shopify_attributes }} style="--pos: {{ block.settings.focus }};">
+        <li class="photo-gallery__item{% if block.settings.wide %} photo-gallery__item--wide{% endif %}" {{ block.shopify_attributes }} style="--pos: {{ block.settings.focus }};">
           {%- if block.settings.image != blank -%}
             {{ block.settings.image | image_url: width: 1200 | image_tag: widths: '300, 450, 600, 800, 1000, 1200', sizes: '(min-width: 750px) 25vw, 50vw', loading: 'lazy', alt: block.settings.alt, style: 'object-position: var(--pos);' }}
           {%- elsif block.settings.asset_file != blank -%}
@@ -192,6 +200,12 @@
             { "value": "center bottom", "label": "Bottom" }
           ],
           "default": "center 30%"
+        },
+        {
+          "type": "checkbox",
+          "id": "wide",
+          "label": "Wide photo (takes up 2 spots)",
+          "default": false
         }
       ]
     }
